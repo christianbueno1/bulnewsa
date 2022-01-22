@@ -13,11 +13,11 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 
     /* color */
-    --main-color: #e56e4eff;
+    --main-color: hsl(12,40%,24%);
     --secondary-color: #ebeae6ff;
 
     /* btn color */
-    --btn-color-40: hsl(13,74%,40%);
+    --btn-color-40: hsl(12,40%,14%);
 
 }
 body {
@@ -140,7 +140,7 @@ body {
 }
 .info-text {
     /* flex: 1; */
-    background-color: #e56e4eff;
+    background-color: var(--main-color);
     color: white;
     padding: 55px;
     font-size: 1.2rem;
@@ -337,6 +337,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
 }
 .contact-title {
     margin-bottom: 20px;
