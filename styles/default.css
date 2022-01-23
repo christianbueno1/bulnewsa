@@ -380,6 +380,23 @@ body {
 }
 
 @media screen and (min-width: 714px) {
+    .brandname {
+        /* font-size: 2rem; */
+        /* font-size: max(2.8rem, 3.5vw); */
+        width: 570px;
+        padding: 20px 20px;
+        /* margin-bottom: 5px; */
+        /* width: 60%; */
+        /* margin: 0 auto; */
+        /* background-color: hsla(0,0%,100%,.4); */
+        /* display: inline; */
+        /* border-radius: 15px; */
+        /* color: white; */
+    
+    }
+    .brandname img{
+        width: 100%;
+    }
     .product {
         position: relative;
         /* top: 2320px;
@@ -400,6 +417,23 @@ body {
     }
     .hero {
         width: inherit;
+    }
+    .brandname {
+        /* font-size: 2rem; */
+        /* font-size: max(2.8rem, 3.5vw); */
+        width: 670px;
+        padding: 20px 20px;
+        /* margin-bottom: 5px; */
+        /* width: 60%; */
+        /* margin: 0 auto; */
+        /* background-color: hsla(0,0%,100%,.4); */
+        /* display: inline; */
+        /* border-radius: 15px; */
+        /* color: white; */
+    
+    }
+    .brandname img{
+        width: 100%;
     }
     .information {
         /* height: 1000px; */
